@@ -74,6 +74,7 @@ def temp():
 
 # Change your city and key!
 # OpenWeather is used, to compare to telescope's inside parked temp to outside
+# Create an OpenWeather account to get an API if you want this feature - https://home.openweathermap.org/api_keys
 def OpenWeather():
         global OWF
         global OWH
@@ -82,7 +83,7 @@ def OpenWeather():
         # using openweathermap api
 
         # Enter your API key here
-        api_key = "fb8fba10c6ddba06dfa86e3f1d3deee1"
+        api_key = "abc123"
 
         # base_url variable to store url
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
